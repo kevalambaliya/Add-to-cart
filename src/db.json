@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "7ff4",
+      "username": "keval",
+      "email": "keval01@gmail.com",
+      "password": "keval12345678910"
+    }
+  ],
+  "products": [
+    {
+      "id": "3eae",
+      "title": "boat headphone",
+      "price": "2200",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9F-kR4B4N3vNOj3Vaci-4zOxQJORl6Q7KFg&s"
+    },
+    {
+      "id": "0e7b",
+      "title": "ubon headphone",
+      "price": "3000",
+      "img": "https://ubkart.in/cdn/shop/files/HP-50.jpg?v=1706337818&width=1445"
+    }
+  ],
+  "carts": [
+    {
+      "id": "bd09",
+      "title": "ubon headphone",
+      "price": "3000",
+      "img": "https://ubkart.in/cdn/shop/files/HP-50.jpg?v=1706337818&width=1445",
+      "qnt": 3,
+      "productId": "0e7b"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #eeeeee;
+}
+#nav {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 0px;
+}
+.link {
+  text-decoration: none;
+  margin: 0px 15px;
+  color: black;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.linkbar{
+  margin-left: 10px;
+}
+
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.signup-form{
+  width: 340px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; 
+  align-content: center;
+  padding: 25px;
+}
+input,.form-button{
+  width: 290px;
+  height: 45px;
+  margin: 10px 0px;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+  font-size: 15px;
+}
+input::placeholder {
+  /* padding: 15px; */
+  font-size: 15px;
+  color: black;
+}
+.mt{
+  margin-top: 15px;
+}
+.ml{
+  margin-left: 15px;
+}
+.card{
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+}
